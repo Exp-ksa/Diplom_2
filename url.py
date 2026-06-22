@@ -1,0 +1,12 @@
+class Url:
+    BASE_URL = "https://qa-scooter.praktikum-services.ru"
+    LOGIN_COURIER_ENDPOINT = f"{BASE_URL}/api/v1/courier/login"
+    CREATE_COURIER_ENDPOINT = f"{BASE_URL}/api/v1/courier"
+    FINISH_ORDER_ENDPOINT = f"{BASE_URL}/api/v1/orders/finish"
+    CANCEL_ORDER_ENDPOINT = f"{BASE_URL}/api/v1/orders/cancel"
+    ORDERS_ENDPOINT = f"{BASE_URL}/api/v1/orders"
+    TRACK_ORDER_ENDPOINT = f"{BASE_URL}/api/v1/orders/track"
+    ACCEPT_ORDERS_ENDPOINT = f"{BASE_URL}/api/v1/orders/accept/"
+    CREATE_ORDER_ENDPOINT = f"{BASE_URL}/api/v1/orders"
+    PING_SERVER_ENDPOINT = f"{BASE_URL}/api/v1/ping"
+    GET_STATION_ENDPOINT = f"{BASE_URL}/api/v1/stations/search"
