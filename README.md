@@ -1,7 +1,9 @@
 ## Задание 2: Автотесты для API
 
-### Автотесты для проверки программы, которая помогает заказать бургер в Stellar Burgers
+### Автотесты для проверки программы, которая помогает заказать бургер в [Stellar Burgers](https://stellarburgers.education-services.ru/)
 
+### Документация
+В ней описаны все эндпоинты сервиса. [Api-Stellar_Burgers](https://code.s3.yandex.net/qa-automation-engineer/python-full/diploma/Api-Stellar_Burgers.pdf)
 ### Реализованные сценарии
 
 ### Создание пользователя:
