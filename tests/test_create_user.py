@@ -11,7 +11,6 @@ class TestCreateUser:
     @allure.title('Пользователя можно создать')
     @allure.severity(allure.severity_level.CRITICAL)
     def test_user_can_be_created(self, clear_user):
-        
         response = User.create_user(clear_user)
         
         assert response.status_code == 200
@@ -22,10 +21,7 @@ class TestCreateUser:
     @allure.title('Нельзя создать пользователя, который уже зарегистрирован')
     @allure.severity(allure.severity_level.NORMAL)
     def test_duplicate_user_cannot_be_created(self, clear_user):
-        
-        response = User.create_user(clear_user)
-        assert response.status_code == 200
-
+        User.create_user(clear_user)
         response = User.create_user(clear_user)
 
         assert response.status_code == 403
