@@ -1,0 +1,1 @@
+{"uuid": "da24b51c-4e64-46fb-b6a4-9dfd5fb8edd2", "children": ["17f5cb6d-6522-4947-8ac4-c742c8a32651"], "befores": [{"name": "order_payload", "status": "passed", "steps": [{"name": "Получение данных об ингридиентах", "status": "passed", "start": 1782454071058, "stop": 1782454071386}], "start": 1782454071058, "stop": 1782454071387}], "start": 1782454071058, "stop": 1782454071720}
